@@ -1,0 +1,25 @@
+{
+  "name": "dev-ops",
+  "version": "1.0.0",
+  "description": "A CI/CD pipeline is a pre-requisite for most modern internet delivered software.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "docsify serve docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "docsify-cli": "^4.4.3",
+    "docusaurus": "^1.14.7",
+    "rimraf": "^2.7.1"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^8.11.4",
+    "doable": "github:acuity-sr/doable",
+    "docsify": "^4.12.1"
+  }
+}
